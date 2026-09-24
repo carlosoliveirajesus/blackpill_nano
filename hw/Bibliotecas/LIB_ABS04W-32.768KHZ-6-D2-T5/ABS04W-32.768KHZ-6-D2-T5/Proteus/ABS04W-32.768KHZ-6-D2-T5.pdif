@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ABS04W-32.768KHZ-6-D2-T5"
+   (description "32.768 kHz +/-20ppm Crystal 6pF 130 kOhms 4-SMD, No Lead")
+   (family "OSC")
+   (package "ABS04W32768KHZ6D2T5")
+   (attribute "Datasheet Link" "https://abracon.com/datasheets/ABS04W.pdf")
+   (attribute "Geometry.Height" "0.35mm")
+   (attribute "Mouser Part Number" "815-04W-32.768-6-D2T")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABS04W-32.768KHZ-6-D2-T5?qs=lc2O%252BfHJPVZbxXtU7CitfQ%3D%3D")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "ABS04W-32.768KHZ-6-D2-T5")
+   (gate
+    (symbol "ABS04W-32.768KHZ-6-D2-T5")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "CRYSTAL_2" 3 PS)
+    (pin "NC" 4 NC)
+   )
+  )
+  (symbol "ABS04W-32.768KHZ-6-D2-T5"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ABS04W32768KHZ6D2T5"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.6 0.5)
+      (pt 0.6 0.5)
+      (pt 0.6 -0.5)
+      (pt -0.6 -0.5)
+      (pt -0.6 0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.17 1.07)
+      (pt 1.17 1.07)
+      (pt 1.17 -1.07)
+      (pt -1.17 -1.07)
+      (pt -1.17 1.07))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 -0.8)
+      (arc (pt -0.500 -0.800) (pt -0.500 -0.850) (pt -0.400 -0.750) (start 180.0) (sweep 180.0))
+      (pt -0.4 -0.8)
+      (arc (pt -0.400 -0.800) (pt -0.500 -0.850) (pt -0.400 -0.750) (start 180.0) (sweep .0))
+      (pt -0.5 -0.8))))
+   (leg 1 (pt -0.410 -0.335) (padstack 0))
+   (leg 2 (pt 0.410 -0.335) (padstack 0))
+   (leg 3 (pt 0.410 0.335) (padstack 0))
+   (leg 4 (pt -0.410 0.335) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.470 0.520 0 0 0.000))
+   )
+   (model "ABS04W-32.768KHZ-6-D2-T5.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

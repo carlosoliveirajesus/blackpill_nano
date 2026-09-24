@@ -1,0 +1,43 @@
+# STM32CubeIDE / Eclipse: dados locais do workspace
+.metadata/
+
+# Firmware: pastas e arquivos gerados pela compilacao
+/fw/**/Debug/
+/fw/**/Release/
+/fw/**/build/
+/fw/**/cmake-build-*/
+/fw/**/*.o
+/fw/**/*.obj
+/fw/**/*.d
+/fw/**/*.elf
+/fw/**/*.hex
+/fw/**/*.bin
+/fw/**/*.map
+/fw/**/*.list
+/fw/**/*.lst
+/fw/**/*.su
+
+# KiCad: preferencias locais, backups e arquivos temporarios
+*.kicad_prl
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.pcb-bak
+*.pro-bak
+_autosave-*
+~*.lck
+fp-info-cache
+
+# Arquivos temporarios do sistema e de editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+~$*
+
+# Manter no Git: .ioc, .project, .cproject, .mxproject, .settings/,
+# Core/, Drivers/, projetos e bibliotecas KiCad, modelos 3D,
+# documentos, BOMs e ZIPs de bibliotecas ou fabricacao.

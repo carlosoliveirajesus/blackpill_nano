@@ -1,0 +1,224 @@
+(footprint "ABS04W32768KHZ6D2T5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ABS04W-32.768KHZ-6-D2-T5-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 -2.01 0)
+		(layer "F.SilkS")
+		(uuid "433d7b57-c767-4901-82b6-fd5944dec412")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ABS04W32768KHZ6D2T5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39c2d622-3bf5-4d7c-af18-132f9ceb783c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5077798-8c64-49fc-92a3-5c07c3dd4ba7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61feabc2-0080-46df-aa42-874b30fad0c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 0.8)
+		(end -0.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfd74400-5147-454a-9a67-e2ce22d733ab")
+	)
+	(fp_line
+		(start -0.4 0.8)
+		(end -0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e898748-d6bb-42d1-bf13-62dba68fc17c")
+	)
+	(fp_arc
+		(start -0.5 0.8)
+		(mid -0.45 0.75)
+		(end -0.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f7f2ca5-c605-407a-ab8e-6a160373559d")
+	)
+	(fp_arc
+		(start -0.4 0.8)
+		(mid -0.45 0.85)
+		(end -0.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aece5a4b-9427-440d-92fd-255d489678ad")
+	)
+	(fp_line
+		(start -1.17 -1.07)
+		(end 1.17 -1.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "557312a8-5a15-4538-89c9-2ec5b53bb978")
+	)
+	(fp_line
+		(start -1.17 1.07)
+		(end -1.17 -1.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3396a48-e5da-409c-b083-aaf8570708f8")
+	)
+	(fp_line
+		(start 1.17 -1.07)
+		(end 1.17 1.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e076c48-bb12-4263-87b3-a0ef3eda035b")
+	)
+	(fp_line
+		(start 1.17 1.07)
+		(end -1.17 1.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ca7e5d0-7ca5-4d8d-9e18-35e579574b29")
+	)
+	(fp_line
+		(start -0.6 -0.5)
+		(end 0.6 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b56ffa3-3374-4e15-ab09-82ac9cec6605")
+	)
+	(fp_line
+		(start -0.6 0.5)
+		(end -0.6 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a48327c-0fea-4ffd-a5e1-2912680f8b45")
+	)
+	(fp_line
+		(start 0.6 -0.5)
+		(end 0.6 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99ada288-50d3-478d-8e52-3860a765b50e")
+	)
+	(fp_line
+		(start 0.6 0.5)
+		(end -0.6 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c681032-e710-4466-811b-03314e135cdf")
+	)
+	(fp_text user "ABS04W-32.768KHZ"
+		(at 0 2.21 0)
+		(layer "F.Fab")
+		(uuid "ffcb2e6f-6bb3-4f84-beb2-1060b23a47b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.41 0.335 90)
+		(size 0.47 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c258b763-1565-4304-8d32-116f0f440a91")
+	)
+	(pad "2" smd rect
+		(at 0.41 0.335 90)
+		(size 0.47 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a386cab-d280-4b50-ad8e-d272f14c291d")
+	)
+	(pad "3" smd rect
+		(at 0.41 -0.335 90)
+		(size 0.47 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0fd43733-0ba0-4ca0-ac94-8f26a8c83f5f")
+	)
+	(pad "4" smd rect
+		(at -0.41 -0.335 90)
+		(size 0.47 0.52)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69bf0225-b8d1-439c-b3b6-7cfec36b28a4")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Carlos/Desktop/SEMB_1/Bibliotecas/LIB_ABS04W-32.768KHZ-6-D2-T5/ABS04W-32.768KHZ-6-D2-T5/3D/ABS04W-32.768KHZ-6-D2-T5.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

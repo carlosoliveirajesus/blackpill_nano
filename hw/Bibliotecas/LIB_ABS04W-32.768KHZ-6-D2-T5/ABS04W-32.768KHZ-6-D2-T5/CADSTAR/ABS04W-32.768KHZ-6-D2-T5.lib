@@ -1,0 +1,16 @@
+.ABS04W-32.768KHZ-6-D2-T5 :1 ;32.768 kHz +/-20ppm Crystal 6pF 130 kOhms 4-SMD, No Lead
+ABS04W32768KHZ6D2T5
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="GND" 3="CRYSTAL_2" 4="NC"
+*MXP 4
+*DFN ABS04W-32.768KHZ-6-D2-T5
+~!Mouser Part Number (815-04W-32.768-6-D2T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABS04W-32.768KHZ-6-D2-T5?qs=lc2O%252BfHJPVZbxXtU7CitfQ%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABS04W-32.768KHZ-6-D2-T5)
+~!Link Datasheet (https://abracon.com/datasheets/ABS04W.pdf)
+~!Height (0.35mm)
+~!3D_Model (ABS04W-32.768KHZ-6-D2-T5)
+ABS04W-32.768KHZ-6-D2-T5
+1.1!U 2.1!U 3.1!U 4.1!U 

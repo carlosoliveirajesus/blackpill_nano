@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ABS04W-32_768KHZ-6-D2-T5"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-19-13:12:07)
+    (mountForm default
+        (footprintRef "ABS04W32768KHZ6D2T5")
+        (spec "System")
+    )
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ABS04W32768KHZ6D2T5"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ABS04W32768KHZ6D2T5")
+        (spec "default")
+    )
+)
